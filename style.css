@@ -1,0 +1,68 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://res.cloudinary.com/qodes/image/upload/v1566250054/sample.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.login-page {
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: rgba(150, 190, 170, 0.8);
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+
+.form input {
+  font-family: "Roboto", "San-serif";
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form label {
+  text-align: left;
+}
+.form button {
+  font-family: "Roboto", "Poppins", "san-serif";
+  text-transform: uppercase;
+  outline: 0;
+  background: #38302e;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+.form button:hover,
+.form button:active {
+  background: #49113d;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #38302e;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.form .message a {
+  margin: 15px 0 0;
+  color: rgb(7, 40, 195);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form .login-form {
+  display: none;
+}
